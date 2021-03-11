@@ -1,44 +1,46 @@
 header {
-    display: block;
-    box-align: top;
+    display: inline-block;
+    position: left;
 }
 
 .logo {
+    display: inline-block;
     text-align: center;
+    padding: 15px;
 }
 
 .nav {
     display: inline-block;
-    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    position: top;
 }
 
-#nav {
-    display: inline-block
-}
-
-.heroImg .content {
+.heroImg {
+    display: inline-block;
     height: 300px;
     width: 300px;
     padding: 25px;
-    background-position: center;
-
+    position: center;
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    background-position: center;
+    margin: 10px;
 }
 
 #footer {
     display: inline-block;
-    background-color: #373738;
-    padding: 1%;
-    vertical-align: center;
+    text-align: center;
+    color: white;
 }
 
-footer {
+.footer {
     display: inline-block;
     background-color: #373738;
-    padding: 1%;
-    vertical-align: center;
+    padding: 10px;
+    text-align: center;
+
 }
